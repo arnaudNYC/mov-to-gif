@@ -1,0 +1,36 @@
+{
+  "name": "@arnaudnyc/mov-to-gif",
+  "version": "0.0.1",
+  "description": "Convert QuickTime videos (.mov) to high quality gifs",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "pretty": "prettier index.js --write",
+    "lint": "eslint index.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnaudNYC/mov-to-gif.git"
+  },
+  "keywords": [
+    "gif",
+    "mov",
+    "convert",
+    "ffmpeg"
+  ],
+  "author": "arnaudNYC <adostes@gmail.com> (https://github.com/arnaudNYC)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arnaudNYC/mov-to-gif/issues"
+  },
+  "homepage": "https://github.com/arnaudNYC/mov-to-gif#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}
